@@ -9,6 +9,10 @@ function divideAndConquerSum(a) {
         return 0;
     }
 
+    if (a.length === 2) {
+        return a[0] + a[1];
+    }
+
     
     const third = Math.floor(a.length / 3);
     const firstPart = a.slice(0, third);
