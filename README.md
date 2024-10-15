@@ -25,3 +25,6 @@ and solve it as we did in the lectures. Give the final $\Theta$ complexity.
 
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
+
+##Review 
+The recurrence relation I had was O(n log n), this is similar to the time complexity of merge sort. The reason for this complexity is that while the array is split into three sub-arrays instead of two, the total work done at each level of recursion is still linear ( O(n) ), and the depth of the recursion tree is logarithmic, resulting in  O(n log n)  overall.
