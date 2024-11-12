@@ -27,7 +27,7 @@ Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
 
 ##Review 
-The recurrence relation I had was 3T(n/3) + n and then my time complexity is O(n log n) and I got a runtime of 4s in the succesful test, this is similar to the time complexity of merge sort. The reason for this complexity is that while the array is split into three sub-arrays instead of two, the total work done at each level of recursion is still linear ( O(n) ), and the depth of the recursion tree is logarithmic, resulting in  O(n log n)  overall. When you are asking about the work being done, it is when I am summing the 3 parts in my code, it is a constant time of O(1) since it is just the sum of 3 numbers. 
+The recurrence relation I had was 3T(n/3) + n and then my time complexity is O(n log n) and I got a runtime of 4s in the succesful test, this is similar to the time complexity of merge sort. The reason for this complexity is that while the array is split into three sub-arrays instead of two, the total work done at each level of recursion is still linear ( O(n) ), and the depth of the recursion tree is logarithmic, resulting in  O(n log n)  overall. When you are asking about the work being done, it is when I am summing the 3 parts in my code, it is a constant time of O(1) since it is just the sum of 3 numbers. The +n copmes from the dividing of the of the array into three sub arrays. 
 
 The Sources I used was the Github co-pilot when my first test failed and it mentioned recursion and my base cases needed looked at. I also looked at a stackflow example to get a idea of the code. https://stackoverflow.com/questions/26344144/divide-and-conquer-algorithm-for-sum-of-integer-array 
 
